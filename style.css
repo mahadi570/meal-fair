@@ -1,0 +1,147 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color:wheat;
+    font-family: 'Akaya Telivigala', cursive;
+}
+nav, main, footer{
+    background-color: purple;
+    border-radius: 15px;
+}
+nav {
+    background-color:wheat;
+    float: left;
+    width: 10%;
+    ;
+}
+
+nav img {
+    width: 100%;
+    margin-left: 135px;
+    background-color: white;
+}
+
+img {
+    border-radius: 10%;
+    outline: none;
+}
+
+.greet-area {
+    color: whitesmoke;
+    text-align: center;
+    font-size: large;
+}
+
+#main-area {
+    width: 80%;
+    margin: auto;
+}
+
+.search-area {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.search-area p {
+    color: wheat;
+}
+
+.search-area input {
+    width: 200px;
+    height: 40px;
+    border: 1px solid blanchedalmond;
+    border-radius: 10px;
+    padding-left: 20px;
+    background-color: blanchedalmond;
+    outline: none;
+}
+
+.search-area button {
+    padding: 11px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: -10px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.meal-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    margin-top: 50px;
+
+}
+
+.meal {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+
+
+
+}
+
+.meal h3 {
+    background: white;
+    padding: 10px 0px;
+
+}
+
+#wrong-search {
+    width: 500px;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    display: none;
+}
+
+/* CSS style ingredients*/
+
+
+#ingridients img {
+    width: 100%;
+
+}
+
+#ingridients h1,
+h3 {
+    padding-left: 15px;
+    margin-top: 20px;
+
+
+}
+
+#ingridients ul {
+    margin-left: 30px;
+    list-style-type: circle;
+}
+
+#ingridients ul li {
+    font-size: 18px;
+    margin-top: 7px;
+}
+
+#ingridients {
+    width: 50%;
+    margin: 30px auto;
+    color: white;
+    padding-bottom: 20px;
+    background: transparent;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+    color: cyan;
+    padding: 50px;
+    width: 72.6%;
+}
